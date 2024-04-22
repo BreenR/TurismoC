@@ -1,0 +1,233 @@
+body{
+    padding: 0;
+    margin:0;
+    background-color: rgb(0, 0, 0);
+}
+.encabezado{
+background: url(imgs/encab.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin: 0;
+height: 300px;
+
+}
+
+.cabcum{
+background: url(imgs/cabcum.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin: 0;
+height: 300px;
+}
+
+.cabsr{
+    background: url(imgs/cabrosa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 300px;
+    }
+
+    .cabv{
+        background: url(imgs/cab3.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        height: 300px;
+        }
+
+ul{  
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(51, 0, 75);;   
+    padding: 30px 0px ;
+   
+}
+
+  a{
+    
+    color:rgb(255, 255, 255);
+    padding: 30px 0px;
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 30px;    
+    padding: 30px 0px;  
+   
+    cursor: pointer; 
+    transition: 2s;
+}
+
+li{
+    
+    display: inline;
+    
+ }
+
+ li a{
+    color:rgb(171, 201, 0);
+    text-decoration: none;   
+justify-content: space-around;
+
+
+
+ }
+
+
+li a:hover {
+background-color: rgba(150, 4, 194, 0.904);
+
+ }
+
+
+h1{
+    color:rgb(0, 199, 156);
+    text-align: center;
+    font-size:80px;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+}
+h2{
+    color:white;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    color:rgb(199, 195, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+
+footer{
+    text-align: center;
+    background-color:rgb(0, 199, 156);
+    margin-bottom: 0;
+    width: 100%;
+    padding:10px;
+}
+
+footer p {
+    color: black;
+}
+#socials {
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(73, 7, 160, 0.29);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    
+    
+    }
+
+    #socials h2{
+    color: rgb(171, 201, 0);
+    font-style:italic;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif
+    }
+
+    .ubicacion {
+        text-align: center;
+        align-items: center;       
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .ubicacion h4{
+        text-align: center;
+    }
+
+    iframe{
+        text-align: center;
+        box-shadow: 5px 5px 50px #540483;
+        border-radius: 20%;
+        
+    }
+
+    fieldset {
+        color: tan;
+        font-size: 22px;
+        margin: 36px 402px;
+        padding: 22px;
+        background:black; 
+        text-align: inherit;
+        }
+        
+        label {
+           
+            display: inline-block;        
+            text-align: right;
+            
+          }
+          input,
+          textarea {
+            
+            width: 350px;
+            box-sizing: border-box;
+            border: 1px solid #999;
+          }
+          .boton{
+            width: 100px;
+            text-align: center;
+            border-radius: 10px;
+            color: white;
+            background-color: rgba(206, 7, 106, 0.671);
+          }
+          
+        h4{
+        font-size: 25px;
+        font-family:Arial, Helvetica, sans-serif;
+       color: rgb(171, 201, 0);
+          text-align: center;
+        }
+
+section {
+    background-color: #000000;
+    text-align: center ;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 2px 4px black;
+    margin-bottom: 50px;
+           
+}        
+section h2{   
+    color: rgb(171, 201, 0);
+    font-style:italic;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif
+}
+
+section img{
+      
+    width: 350px;
+    max-height: 330px;
+    border-radius: 5px ;
+    object-fit:cover;
+    margin: auto;
+    cursor: pointer;    
+    transition: 3s;
+    
+}
+section img:hover{
+    transform: scale(2,2);
+    transition: 3s;
+    
+}
+
+section p{
+        text-decoration: none;
+        border: 0.1px solid rgba(173, 0, 207, 0.87);
+        height: 100%;
+        width: 100%;
+        margin:0;   
+        font-family: Arial, Helvetica, sans-serif;
+}

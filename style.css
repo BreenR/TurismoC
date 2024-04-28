@@ -1,7 +1,8 @@
+
 body{
     padding: 0;
     margin:0;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);  
 }
 .encabezado{
 background: url(imgs/encab.jpg);
@@ -31,6 +32,15 @@ height: 300px;
     height: 300px;
     }
 
+    .ins{
+        background: url(imgs/aerovilla.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        height: 300px;
+
+    }
     .cabv{
         background: url(imgs/cab3.jpeg);
         background-repeat: no-repeat;
@@ -136,24 +146,6 @@ footer p {
     font-family:'Helvetica','Verdana','Monaco',sans-serif
     }
 
-    .ubicacion {
-        text-align: center;
-        align-items: center;       
-        justify-content: center;
-        margin-bottom: 50px;
-    }
-
-    .ubicacion h4{
-        text-align: center;
-    }
-
-    iframe{
-        text-align: center;
-        box-shadow: 5px 5px 50px #540483;
-        border-radius: 20%;
-        
-    }
-
     fieldset {
         color: tan;
         font-size: 22px;
@@ -231,3 +223,121 @@ section p{
         margin:0;   
         font-family: Arial, Helvetica, sans-serif;
 }
+
+.tarjetauno p{
+    color:black
+    
+   
+}
+.tarjetauno{
+    text-align: center;
+   
+    background-color: #fff;
+    text-align: center ;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 2px 4px black;
+    max-width: 400px;    
+}
+
+.tarjetauno img{
+    width: 100%;
+    max-height: 200px;
+    border-radius: 5px ;
+    object-fit:cover;    
+}
+
+.tarjetauno h2{
+    color: brown;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.tarjetauno .precio{
+    font-size: 24px;
+    color: #ff6600;
+    margin-top:10px;
+}
+
+.tarjetados p{
+    
+    color:black
+
+}
+.tarjetados{
+    background-color: #fff;
+    text-align: center ;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 2px 4px black;
+    max-width: 400px;    
+}
+
+.tarjetados img{
+    width: 100%;
+    max-height: 200px;
+    border-radius: 5px ;
+    object-fit:cover;    
+}
+
+.tarjetados h2{
+    color: brown;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.tarjetados .precio{
+    font-size: 24px;
+    color: #ff6600;
+    margin-top:10px;
+}
+
+
+.p{
+    text-decoration: none;
+    border: 0.1px solid rgba(0, 0, 0, 0.28);
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+
+.tarjetatres p{
+    color:black
+}
+.tarjetatres{
+    background-color: #fff;
+    text-align: center ;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 2px 4px black;
+    max-width: 400px;    
+}
+
+.tarjetatres img{
+    width: 100%;
+    max-height: 200px;
+    border-radius: 5px ;
+    object-fit:cover;    
+}
+
+.tarjetatres h2{
+    color: brown;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.tarjetatres .precio{
+    font-size: 24px;
+    color: #ff6600;
+    margin-top:10px;
+}
+
+.tarjetatres  .p{
+    text-decoration: none;
+    border: 0.1px solid rgba(0, 0, 0, 0.28);
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+
+
